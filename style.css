@@ -437,7 +437,7 @@ section {
 .about__photo--sub-2 {
  aspect-ratio: 1/1;
  position: relative;
- background: url("images/approach-item-image-1.jpg") center/cover no-repeat;
+ background: url("images-build/images-11.jpeg") center/cover no-repeat;
 }
 
 .about__badge {
@@ -1642,6 +1642,37 @@ section {
   font-size: 36px;
  }
 
+ .cert-badge {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-width: 0;
+  padding: 20px;
+ }
+
+ .cert-badge > div {
+  width: 100%;
+  min-width: 0;
+ }
+
+ .cert-badge__icon {
+  align-self: center;
+ }
+
+ .cert-badge h3 {
+  text-align: center;
+ }
+
+ .cert-badge__tags {
+  justify-content: center;
+  gap: 12px;
+ }
+
+ .cert-badge__tags span {
+  text-align: center;
+ }
+
  .testimonials__inner {
   grid-template-columns: 1fr;
   gap: 32px;
@@ -1673,15 +1704,29 @@ section {
  }
 
  .stats__card-image {
+  width: 100%;
   height: auto;
-  min-height: 280px;
+  min-height: 0;
   aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+ }
+
+ .stats__card-image figure {
+  margin: 0;
+  width: 100%;
+  height: auto;
  }
 
  .stats__card-image img {
-  min-height: 280px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
   aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
  }
 
  .stats__numbers {
@@ -1694,6 +1739,27 @@ section {
   justify-content: flex-start;
   gap: 24px;
   padding: 16px 0 0;
+ }
+
+ .stats__panel--dark {
+  min-width: 0;
+  width: 100%;
+  overflow-x: clip;
+  padding: 24px;
+ }
+
+ .stats__numbers-grid strong {
+  font-size: 36px;
+ }
+
+ .stats__numbers-grid span {
+  font-size: 14px;
+  line-height: 1.4;
+ }
+
+ .stats__numbers-label {
+  font-size: 16px;
+  margin-bottom: 12px;
  }
 
  .stats__content-image {
@@ -1769,15 +1835,25 @@ section {
  }
 
  .cert-badge {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 16px 20px;
+  padding: 16px 18px;
+ }
+
+ .cert-badge__tags {
+  gap: 10px;
+ }
+
+ .cert-badge__tags span {
+  font-size: 11px;
  }
 
  .stats__numbers-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+
+ .stats__numbers-grid strong {
+  font-size: 32px;
  }
 
  .footer__main {
@@ -1794,7 +1870,8 @@ section {
  }
 
  .stats__panel--dark {
-  padding: 24px;
+  padding: 20px;
+  gap: 20px;
  }
 
  .stats__card-top {
@@ -1822,5 +1899,27 @@ section {
 
  .hero__title {
   font-size: 26px;
+ }
+
+ .stats__card-number,
+ .stats__numbers-grid strong {
+  font-size: 28px;
+ }
+
+ .stats__numbers-label {
+  font-size: 14px;
+ }
+
+ .stats__card-image,
+ .stats__card-image img {
+  aspect-ratio: 4 / 3;
+ }
+
+ .cert-badge {
+  padding: 14px 16px;
+ }
+
+ .cert-badge h3 {
+  font-size: 14px;
  }
 }
