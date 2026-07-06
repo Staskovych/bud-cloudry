@@ -424,7 +424,7 @@ section {
 
 .about__photo {
  border-radius: var(--radius-md);
- background: url("images/about-us-image-1.jpg") center/cover no-repeat;
+ background: url("images-build/images-6.jpeg") center/cover no-repeat;
 }
 .about__photo--main {
  grid-column: 1 / -1;
@@ -432,7 +432,7 @@ section {
 }
 .about__photo--sub-1 {
  aspect-ratio: 1/1;
- background: url("images/about-us-image-2.jpg") center/cover no-repeat;
+ background: url("images-build/images-5.jpeg") center/cover no-repeat;
 }
 .about__photo--sub-2 {
  aspect-ratio: 1/1;
@@ -572,7 +572,7 @@ section {
  inset: 0;
  background:
   linear-gradient(90deg, rgba(12, 19, 32, 0.92), rgba(12, 19, 32, 0.78)),
-  url("images/working-process-bg-silver.jpg") center/cover no-repeat;
+  url("images-build/images-13.jpeg") center/cover no-repeat;
  z-index: 0;
 }
 .process__inner {
@@ -702,16 +702,16 @@ section {
  border-radius: var(--radius-sm);
 }
 .service-card__image--1 {
- background: url("images/service-image-1.jpg") center/cover no-repeat;
+ background: url("images-build/images-12.jpeg") center/cover no-repeat;
 }
 .service-card__image--2 {
- background: url("images/service-image-2.jpg") center/cover no-repeat;
+ background: url("images-build/images-7.jpeg") center/cover no-repeat;
 }
 .service-card__image--3 {
- background: url("images/service-image-3.jpg") center/cover no-repeat;
+ background: url("images-build/images-2.jpeg") center/cover no-repeat;
 }
 .service-card__image--4 {
- background: url("images/service-image-4.jpg") center/cover no-repeat;
+ background: url("images-build/images-1.jpeg") center/cover no-repeat;
 }
 
 .services__rating {
@@ -947,7 +947,7 @@ section {
  aspect-ratio: auto;
  align-self: stretch;
  border-radius: var(--radius-md);
- background: url("images/what-we-do-image.png") center/cover no-repeat;
+ background: url("images-build/images-9.jpeg") center/cover no-repeat;
  background-size: cover;
  background-position: center;
 }
@@ -1145,7 +1145,7 @@ section {
 .testimonials__image {
  aspect-ratio: 3/4;
  border-radius: var(--radius-lg);
- background: url("images/testimonial-image-silver.jpg") center/cover no-repeat;
+ background: url("images-build/images-10.jpeg") center/cover no-repeat;
 }
 .testimonials__badge {
  position: absolute;
@@ -1272,13 +1272,13 @@ section {
  padding: 16px;
 }
 .blog-card__image--1 {
- background: url("images/post-1.jpg") center/cover no-repeat;
+ background: url("images-build/images-11.jpeg") center/cover no-repeat;
 }
 .blog-card__image--2 {
- background: url("images/post-2.jpg") center/cover no-repeat;
+ background: url("images-build/images-3.jpeg") center/cover no-repeat;
 }
 .blog-card__image--3 {
- background: url("images/post-3.jpg") center/cover no-repeat;
+ background: url("images-build/images-4.jpeg") center/cover no-repeat;
 }
 
 .blog-card__tag {
